@@ -1,0 +1,19 @@
+.btn {
+  align-self: center;
+  position: relative;
+  display: inline;
+  padding: 12px 36px;
+  margin: 10px 0;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border-radius: 40px;
+  background: linear-gradient(90deg, var(--orange), var(--baby-blue));
+}
+
+@media screen and (max-width: 1000px) {
+  .btn {
+    display: none;
+  }
+}
